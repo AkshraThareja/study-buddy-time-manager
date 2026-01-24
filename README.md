@@ -19,3 +19,16 @@ tests/
   - test_basic.py # placeholder test file
 - README.md
 - requirements.txt
+
+
+## How to Run
+
+1. (Optional) Create & activate virtual environment:
+   python -m venv venv
+Windows: venv\Scripts\activate
+macOS/Linux: source venv/bin/activate
+2. Install dependencies (none required yet):
+   pip install -r requirements.txt
+3. Run program:
+   python src/main.py
+
