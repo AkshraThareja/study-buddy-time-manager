@@ -26,7 +26,7 @@ study-buddy-time-manager/
 
 ## Run Locally
 Clone the repo:
-- git clone https://github.com/AkshraThareja/studt-buddy-time-manager.git
+- git clone https://github.com/AkshraThareja/study-buddy-time-manager.git
 
 ## Run the program:
 python src/main.py
