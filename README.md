@@ -26,7 +26,7 @@ study-buddy-time-manager/
 
 ## Run Locally
 Clone the repo:
-- git clone https://github.com/AkshraThareja/mood-music-recommender.git
+- git clone https://github.com/AkshraThareja/studt-buddy-time-manager.git
 
 ## Run the program:
 python src/main.py
