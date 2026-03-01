@@ -1,35 +1,32 @@
-# Mood Music Recommender
+# Study Buddy — Time Manager
 
-A minimal offline Python program that recommends songs based on the user's mood.  
-Designed as a beginner → intermediate project with clean, extendable structure.
+A clean and minimal Python CLI that helps you plan your study sessions.  
+You enter your available time and subjects, and it generates a balanced study schedule with short breaks.  
+Includes a motivational quote feature powered by a simple JSON file.
 
 ## Features
-- Command-line interface for interaction
-- Mood-to-song recommendations stored in a CSV file
-- Simple, readable code architecture
-- Easy to extend (GUI, APIs, sentiment analysis)
+
+- Distributes your available time across subjects based on priority  
+- Suggests break intervals between study blocks  
+- Random motivational quote for each session  
+- Lightweight, beginner-friendly project  
+- Simple structure for future upgrades (GUI, timers, progress tracking)
 
 ## Project Structure
-mood-music-recommender/
+study-buddy-time-manager/
 - src/
-  - main.py # main application code
+  - main.py # core logic
 - data/
-  - songs.csv # mood-to-song mapping
-tests/
-  - test_basic.py # placeholder test file
+  - quotes.json # motivational quotes database
+- tests/
+  - test_basic.py # placeholder tests
 - README.md
 - requirements.txt
 
 
-## How to Run
+## Run Locally
+Clone the repo:
+- git clone https://github.com/AkshraThareja/mood-music-recommender.git
 
-1. (Optional) Create & activate virtual environment:
-   python -m venv venv
-Windows: venv\Scripts\activate
-macOS/Linux: source venv/bin/activate
-2. Install dependencies (none required yet):
-   pip install -r requirements.txt
-3. Run program:
-   python src/main.py
-4. Run locally:
-   clone https://github.com/AkshraThareja/study-buddy-time-manager.git
+## Run the program:
+python src/main.py
